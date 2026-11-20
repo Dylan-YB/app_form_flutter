@@ -32,12 +32,3 @@ Funcionamiento
 5. Al autenticarse, GoRouter redirige al dashboard, que muestra nombre, correo, rol y foto.
 6. Al cerrar sesión se limpia el usuario activo y GoRouter vuelve al login.
 
-## Entregar por GitHub
-```bash
-git init
-git add .
-git commit -m "Implementar login, GoRouter y dashboard"
-git branch -M main
-git remote add origin https://github.com/TU_USUARIO/app_form.git
-git push -u origin main
-```
